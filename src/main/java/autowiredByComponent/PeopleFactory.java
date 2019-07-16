@@ -16,8 +16,8 @@ public class PeopleFactory {
      */
     private People p1;
     @Autowired
-    public PeopleFactory(People p){
-        this.p1 = p;
+    public PeopleFactory(People student){
+        this.p1 = student;
     }
 
     /**
@@ -25,8 +25,8 @@ public class PeopleFactory {
      */
     private People p2;
     @Autowired
-    public void setPeople(People p){
-        this.p2 = p;
+    public void setPeople(People programer){
+        this.p2 = programer;
     }
 
     public People getProgramer() {

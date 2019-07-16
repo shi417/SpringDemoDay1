@@ -14,7 +14,7 @@ public class peopleTest {
      * 基于注解的方式注入
      */
     @Autowired
-    private People programer;
+    private People student;
     @Autowired
     private PeopleFactory pf;
 
@@ -26,5 +26,6 @@ public class peopleTest {
         pf.getP1().dinner();
         System.out.println("p2 start");
         pf.getP2().dinner();
+        student.dinner();
     }
 }
