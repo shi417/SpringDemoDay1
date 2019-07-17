@@ -24,8 +24,11 @@ public class peopleTest {
         pf.getProgramer().dinner();
         System.out.println("p1 start");
         pf.getP1().dinner();
+
         System.out.println("p2 start");
         pf.getP2().dinner();
         student.dinner();
+        student.printCount();
+
     }
 }
